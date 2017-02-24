@@ -12,5 +12,4 @@ RUN curl -sL https://deb.nodesource.com/setup_7.x | bash - \
         && [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" \
 	&& nvm install 5.8.0 \
 	&& nvm use 5.8.0 \
-	&& apt-get install -y git nodejs yarn \
-	&& rm -rf /var/lib/apt/lists/*
+	&& apt-get install -y git nodejs yarn
