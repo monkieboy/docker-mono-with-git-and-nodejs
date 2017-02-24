@@ -1,0 +1,1 @@
+# docker-mono-with-git-and-nodejs
